@@ -3,7 +3,7 @@ import pymysql
 # Database connection
 
 def getConnection() :
-    connection = pymysql.connect(host="localhost",user="root",passwd="",database="the_programming_guy")
+    connection = pymysql.connect(host="localhost",user="root",passwd="",database="the_programming_guy")    
     return connection
 
 
